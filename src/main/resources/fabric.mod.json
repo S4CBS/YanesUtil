@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "yanesutil",
+  "version": "1.0.0",
+  "name": "YanesUtilMod",
+  "description": "/god,  /fly",
+  "authors": [
+    "S4CBS"
+  ],
+  "contact": {
+    "homepage": "https://gitlab.com/S4CBS/yanesutilmod-1.19.2-fabric",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/yanesutil/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.yanes.yanesutil.YanesutilMod"
+    ],
+    "client": [
+      "net.yanes.yanesutil.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}

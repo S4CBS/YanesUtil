@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2024-11-03 01:01:07 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}
