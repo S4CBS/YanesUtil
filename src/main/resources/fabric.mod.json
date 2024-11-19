@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "yanesutil",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "name": "YanesUtilMod",
-  "description": "/god,  /fly",
+  "description": "/god,  /fly, /fix, /timehudtoggle",
   "authors": [
     "S4CBS"
   ],

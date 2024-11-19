@@ -4,6 +4,7 @@
  */
 package net.yanes.yanesutil.init;
 
+import net.yanes.yanesutil.procedures.FixCommandProcedure;
 import net.yanes.yanesutil.procedures.GodCommandProcedure;
 import net.yanes.yanesutil.procedures.FlyCommandProcedure;
 
@@ -12,5 +13,6 @@ public class YanesutilModProcedures {
 	public static void load() {
 		new FlyCommandProcedure();
 		new GodCommandProcedure();
+		new FixCommandProcedure();
 	}
 }

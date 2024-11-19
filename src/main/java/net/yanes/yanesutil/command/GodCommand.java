@@ -24,7 +24,9 @@ public class GodCommand {
 					Entity entity = arguments.getSource().getEntity();
 					Direction direction = entity.getDirection();
 
-					GodCommandProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+					GodCommandProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity)
+							.put("world", world)
+							.build());
 					return 0;
 				}));
 	}

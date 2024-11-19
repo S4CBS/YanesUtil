@@ -12,6 +12,7 @@
  */
 package net.yanes.yanesutil;
 
+import net.yanes.yanesutil.OnJoin.PlayerJoinHandler;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -30,6 +31,7 @@ public class YanesutilMod implements ModInitializer {
 
 		YanesutilModProcedures.load();
 		YanesutilModCommands.load();
+		PlayerJoinHandler.register();
 
 	}
 }

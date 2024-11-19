@@ -24,7 +24,9 @@ public class FlyCommand {
 					Entity entity = arguments.getSource().getEntity();
 					Direction direction = entity.getDirection();
 
-					FlyCommandProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity).build());
+					FlyCommandProcedure.execute(com.google.common.collect.ImmutableMap.<String, Object>builder().put("entity", entity)
+							.put("world", world)
+							.build());
 					return 0;
 				}));
 	}
